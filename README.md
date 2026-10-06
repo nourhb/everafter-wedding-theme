@@ -56,6 +56,16 @@ No plugins required. Google Fonts (Cormorant Garamond + Jost) load automatically
 ### 1.0.0
 - Initial release: 8 templates, 2 template parts, 10 block patterns, Midnight style variation, theme.js interactions, full a11y pass.
 
+## Design Previews
+![everafter-main](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-main.png)
+![everafter-packages](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-packages.png)
+![everafter-mobile](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-mobile.png)
+![everafter-midnight](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-midnight.png)
+![everafter-services](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-services.png)
+![everafter-gallery](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-gallery.png)
+![everafter-testimonials](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-testimonials.png)
+![everafter-booking](https://nour-el-houda-bouajila.rf.gd/wp-content/uploads/2026/10/everafter-booking-scaled.png)
+
 ## License
 
 GNU General Public License v2 or later — see `LICENSE`.
