@@ -1,0 +1,27 @@
+# ---> editorconfig, node, composer, os
+.editorconfig
+.DS_Store
+Thumbs.db
+
+# ---> dependencies
+node_modules/
+vendor/
+
+# ---> build artifacts
+dist/
+*.zip
+*.log
+npm-debug.log*
+
+# ---> IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ---> WordPress
+wp-config.php
+
+# ---> screenshots (local previews, not part of the theme package)
+screenshots/
+screenshot.png

@@ -1,0 +1,37 @@
+/* Editor styles for the Ever After theme.
+ * Loaded in the block editor to mirror the front-end typography. */
+
+body {
+	font-family: "Jost", -apple-system, "Segoe UI", sans-serif;
+	line-height: 1.7;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3 {
+	font-family: "Cormorant Garamond", "Times New Roman", serif;
+	font-weight: 500;
+}
+
+/* Custom block style previews */
+.is-style-soft-card {
+	background: #ffffff;
+	border: 1px solid #f0e6da;
+	border-radius: 20px;
+	box-shadow: 0 16px 40px -24px rgba(120, 90, 60, .35);
+}
+
+.is-style-arched img {
+	border-radius: 999px 999px 18px 18px;
+}
+
+.is-style-outline-gold .wp-block-button__link {
+	background: transparent;
+	border: 1.5px solid #c9a86a;
+	color: #a9834f;
+}
+
+.is-style-script-accent {
+	font-style: italic;
+	color: #a9834f;
+}
