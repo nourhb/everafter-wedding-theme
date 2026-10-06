@@ -1,0 +1,29 @@
+<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"4rem","bottom":"5rem"}}},"layout":{"type":"constrained"}} -->
+<main class="wp-block-group" style="padding-top:4rem;padding-bottom:5rem">
+	<!-- wp:heading {"textAlign":"center","level":1,"className":"everafter-reveal"} -->
+	<h1 class="wp-block-heading has-text-align-center everafter-reveal">Search</h1>
+	<!-- /wp:heading -->
+
+	<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-inside","style":{"border":{"radius":"999px"}},"backgroundColor":"blush-light"} /-->
+
+	<!-- wp:query {"queryId":3,"query":{"perPage":6,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true},"layout":{"type":"default"}} -->
+	<div class="wp-block-query">
+		<!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+		<!-- wp:post-featured-image {"isLink":true,"aspectRatio":"4/3","style":{"border":{"radius":"18px"}}} /-->
+		<!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
+		<!-- wp:post-excerpt {"moreText":"Read the story"} /-->
+		<!-- /wp:post-template -->
+
+		<!-- wp:query-no-results -->
+		<!-- wp:paragraph {"align":"center"} -->
+		<p class="has-text-align-center">Nothing found. Try a different search.</p>
+		<!-- /wp:paragraph -->
+		<!-- /wp:query-no-results -->
+	</div>
+	<!-- /wp:query -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->
